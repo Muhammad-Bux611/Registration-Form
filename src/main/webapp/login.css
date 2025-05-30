@@ -1,0 +1,86 @@
+@charset "UTF-8";
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body {
+	background: url("https://t4.ftcdn.net/jpg/04/60/71/01/360_F_460710131_YkD6NsivdyYsHupNvO3Y8MPEwxTAhORh.jpg");
+}
+.loginPage {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+	height:750px;
+	
+
+}
+form{
+	margin-top:30px;
+	margin-bottom:20px;
+	height:750px;
+	width: 500px;
+		padding-left:100px;
+	
+	border:2px,solid,#408080;
+	background: url("https://static.vecteezy.com/system/resources/thumbnails/014/468/621/small/abstract-digital-technology-background-with-concept-security-vector.jpg");
+	
+	
+}
+img {
+	border-radius: 50%;
+	margin-top:70px;
+	margin-bottom: 60px;
+	margin-left: 40px;
+}
+span {
+	color: yellow;
+	font-size: 25px;
+	
+} input[type=password]{
+	height: 35px;
+	width: 300px;
+	border-radius: 20px;
+	padding-left: 30px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	 margin-left: 30px;
+	
+	
+	
+}
+
+input[type=email]{
+	height: 35px;
+	width: 300px;
+	border-radius: 20px;
+	padding-left: 30px;
+	margin-bottom: 20px;
+	margin-left:30px;
+	font-size: 20px;
+}
+.btns{
+	margin-left:90px;
+	width:150px;
+	height:100px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	
+}
+.btns a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	background-color: #c0c0c0;
+	border-radius: 25px;	
+}
+.btns input {
+	height: 40px;
+	background-color: yellow;
+	font-size: 25px;
+	border-radius: 20px;
+	
+}

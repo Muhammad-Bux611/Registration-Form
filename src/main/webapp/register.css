@@ -1,0 +1,66 @@
+@charset "UTF-8";
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+form{
+	height:750px;
+	width:400px;
+	background: url("https://img.freepik.com/free-photo/office-desk-workspace-bright-color-yellow-background_169016-38713.jpg?semt=ais_hybrid");
+}
+body{
+	background: url("https://img.freepik.com/free-photo/copy-space-glasses-clipboard_23-2148519793.jpg?t=st=1742406306~exp=1742409906~hmac=5e6379dcca4e09f5484f80cd93bf4cae1d154af0fa004fd23cc631d015651ee5&w=1380");
+}
+.register{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.data{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+span{
+	margin-top:30px;
+}
+input {
+	color:blue;
+	height: 30px;
+	width: 250px;
+	background-color: #c0c0c0;
+	border-radius: 20px;
+	font-size: 15px;
+	border:none;
+	padding-left: 20px;
+	margin-left: 40px;
+}
+input[type=submit] {
+	padding-right:20px;
+	font-size:20px;
+	margin-top:50px;
+	height:40px;
+	width:130px;
+	background-color: blue;
+	color: white;
+	border-radius: 20px;
+	text-align: center;
+	
+}
+img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%
+}
+.image{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+span {
+	font-size: 20px;
+	margin-left: -70px;
+}
+
